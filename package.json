@@ -1,25 +1,21 @@
 {
-  "name": "com.google.external-dependency-manager",
-  "version": "1.2.165",
-  "displayName": "External Dependency Manager for Unity",
+  "name": "com.google.firebase.dynamic-links",
+  "version": "7.2.0",
+  "displayName": "Firebase Dynamic Links",
   "keywords": [
     "Google",
-    "Android",
-    "Gradle",
-    "Cocoapods",
-    "Dependency",
-    "Unity Package Manager",
-    "Unity",
-    "vh-name:play-services-resolver",
-    "vh-name:unity-jar-resolver",
-    "vh-name:external-dependency-manager",
-    "vh-name:External Dependency Manager for Unity"
+    "Firebase",
+    "Dynamic Links",
+    "vh-name:FirebaseDynamicLinks",
+    "vh-name:Firebase Dynamic Links"
   ],
   "author": {
     "name": "Google LLC",
-    "url": "https://github.com/googlesamples/unity-jar-resolver"
+    "url": "https://firebase.google.com/docs/dynamic-links"
   },
-  "description": "External Dependency Manager for Unity (EDM4U) can be used by any Unity plugin that requires Android specific libraries (e.g. AARs), iOS CocoaPods, version management of transitive dependencies, and/or management of Unity Package Manager registries.",
+  "description": "Deep link potential players to the right place inside your game.\n\nDynamic Links are smart URLs that allow you to send existing and potential players to any location within your game. They survive the game install process, so even new players see the content they're looking for when they open the game for the first time. Dynamic Links are free forever, for any scale.",
   "unity": "2017.1",
-  "dependencies": {}
+  "dependencies": {
+    "com.google.firebase.app": "7.2.0"
+  }
 }
